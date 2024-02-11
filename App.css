@@ -1,0 +1,110 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: aqua;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+  background-color: #333;
+}
+
+.name{
+  color: rgb(255, 255, 255);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 50px;
+  margin-left: 90px;
+  margin-right: 350px;
+  margin-top: 150px;
+}
+
+.intro{
+  display: flex;
+}
+
+.giphy{
+  border-radius: 50%;
+  margin-top: 70px;
+}
+
+/*about*/
+
+.about{
+  color:aqua ;
+  font-size: 60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.profile{
+  border-radius: 50%;
+  height: 400px;
+  margin-left: 550px;
+}
+
+p{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+/*languages*/
+
+.languages{
+  height: 200px;
+  justify-content:space-around;
+  display: flex;
+  margin-top: 220px;
+}
+
+.html:hover{
+  height: 210px;
+}
+
+.css:hover{
+  height: 210px;
+}
+
+.react{
+  border-radius: 50%;
+
+}
+
+.react:hover{
+  height: 210px;
+}
+
+.js{
+  border-radius: 50%;
+}
+
+.js:hover{
+  height: 210px;
+}
+
+/**/
+
+.project-picture{
+  margin-top: 70px;
+  margin-left: 80px;
+  border-radius: 20px;
+  height: 300px;
+}
+
+.github{
+  height: 100px;
+  border-radius: 50%;
+  margin-left: 70px;
+}
